@@ -7,3 +7,9 @@
 6. lalu migrate table yang ada dengan mengetikan "php artisan migrate"
 7. lalu jalankan db:seed dengan mengetikan "php artisan db:seed"
 8. lalu jalankan aplikasi dengan mengetikan "php artisan serve"
+
+## note
+
+- JANGAN LUPA UNTUK SEED DATABASE KARNA ADA DATA PROVINSI , KOTA , KECAMATAN
+- untuk login admin bisa buka localhost:8000/login
+- untuk email dan password admin dapat di cek di folder database/seeds/UsersTableSeeder.php
